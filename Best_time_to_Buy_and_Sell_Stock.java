@@ -4,6 +4,7 @@ public class Best_time_to_Buy_and_Sell_Stock {
         int[] arr ={7,1,5,3,6,4};
         int profit = stock(arr);
         System.out.println(profit);
+        int [] arrs = new int[5];
     }
     public static int stock(int[] arr) {
         int min = Integer.MAX_VALUE;
@@ -20,6 +21,7 @@ public class Best_time_to_Buy_and_Sell_Stock {
             }
         }
     return maxprofit;
+
     }
 
 
